@@ -11,4 +11,4 @@
 /log/*
 !/log/.keep
 /tmp
-/config/translators/*
+/config/translators/street_sweeping.yml
