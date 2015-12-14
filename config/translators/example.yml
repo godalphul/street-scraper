@@ -1,0 +1,10 @@
+api:
+  base_url: "https://some-api-url.com"
+  offset_name: "offset_attribute_name"
+  result_count: 100
+  max_results: 1000
+  result_count_name: "results_per_page_attribute_name"
+  object_path: "name_of_restriciton_object"
+attributes:
+  speed: "speed"
+  street_name: "name_of_street"

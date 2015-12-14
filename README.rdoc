@@ -6,5 +6,6 @@
  - The Scraper uses templates to pull from APIs
  - Place templates in the config/translate directory
  - Run rake db:seed
+ - Scraper module is located in lib/modules/scraper
  
  
