@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Streets</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+	  <th>Restriction Count</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @streets.each do |street| %>
+      <tr>
+        <td><%= street.name %></td>
+		<td><%= street.restrictions.count %></td>
+        <td><%= link_to 'Show', street %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+<div style="text-align:right; padding-bottom:100px">
+	<%= will_paginate @streets %>
+</div>
